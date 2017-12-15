@@ -6,9 +6,9 @@ public class Main {
    public static void main (String[]args){
         //Determine if latin or english
         //Translate
-        JOptionPane.showConfirmDialog(null, "Translate to PigLatin?" ,"Translator", JOptionPane.YES_NO_OPTION);
-        if (==JOptionPane.NO_OPTION){JOptionPane.showConfirmDialog(null,"Translate to English","Translator",JOptionPane.YES_NO_OPTION);}
-
-
+        JOptionPane.showConfirmDialog(null, "Translate English to PigLatin?" ,"Translator", JOptionPane.YES_NO_OPTION);
+        if (1==JOptionPane.NO_OPTION)
+        { JOptionPane.showConfirmDialog(null,"Translate PigLatin to English","Translator",JOptionPane.YES_NO_OPTION);}
+        if (0==JOptionPane.YES_OPTION) {JOptionPane.showInputDialog("Input your sentence.");}
     }
 }
